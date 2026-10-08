@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&family=Noto+Serif+KR:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="motion.css">
+  <link rel="stylesheet" href="photos.css">
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -55,8 +56,14 @@
     <section class="section philosophy" id="philosophy" aria-labelledby="philosophy-title">
       <div class="section-label"><span>01</span> OUR PHILOSOPHY</div>
       <div class="philosophy-grid">
+        <div class="philosophy-copy">
         <h2 id="philosophy-title" data-split-title>얼굴과 몸,<br>아름다움의 균형을<br>함께 생각합니다.</h2>
         <div class="philosophy-text"><p>SYMMETRY는 균형과 대칭을 뜻합니다.<br>시머트리스파는 얼굴과 몸의 균형을 함께 살피며,<br class="desktop-break"> 각자의 상태에 맞는 관리 방향을 설계합니다.</p><p>일상의 무게를 잠시 내려놓고, 나에게 집중하는 시간.<br>편안한 공간과 세심한 손길로<br>본연의 아름다움을 찾아가는 여정을 함께합니다.</p><a class="text-link" href="#approach">시머트리의 관리 접근 방식</a></div>
+        </div>
+        <div class="philosophy-pictures">
+          <button class="gallery-photo philosophy-main" data-src="assets/reception-desk.jpg" data-caption="시머트리스파 강남본점 리셉션" aria-label="리셉션 사진 크게 보기"><img src="assets/reception-desk.jpg" alt="시머트리스파 로고와 식물이 있는 크림색 리셉션" loading="lazy" width="3072" height="4096"><span>IN BALANCE <small>사진 크게 보기</small></span></button>
+          <button class="gallery-photo philosophy-detail" data-src="assets/entrance-sign.jpg" data-caption="시머트리스파 강남본점의 입구 간판" aria-label="입구 간판 사진 크게 보기"><img src="assets/entrance-sign.jpg" alt="우드 도어에 놓인 시머트리스파 조명 간판" loading="lazy" width="3072" height="4096"></button>
+        </div>
       </div>
     </section>
     <section class="approach" id="approach" aria-labelledby="approach-title">
@@ -64,9 +71,9 @@
         <div class="section-label"><span>02</span> PERSONAL CARE</div>
         <div class="approach-heading"><h2 id="approach-title" data-split-title>경험에서 출발해,<br>한 사람에게 집중합니다.</h2><p>간호사 15년, 통증의학과 7년 경력을 바탕으로<br>얼굴과 몸의 균형을 함께 분석하는 원장의 관리 철학.</p></div>
         <div class="approach-steps">
-          <article><span class="step-number">01 / LISTEN</span><h3>충분히 듣고</h3><p>고민과 원하는 방향을 함께 이야기합니다.</p></article>
-          <article><span class="step-number">02 / UNDERSTAND</span><h3>함께 살피고</h3><p>얼굴과 몸의 균형을 함께 고려합니다.</p></article>
-          <article><span class="step-number">03 / DESIGN</span><h3>나에게 맞추는 관리</h3><p>개인의 상태에 맞는 관리 방향을 안내합니다.</p></article>
+          <article><div class="approach-photo image-reveal"><img src="assets/quiet-lounge.jpg" alt="화이트 의자 두 개가 있는 시머트리스파의 조용한 대기공간" loading="lazy" width="3072" height="4096"></div><span class="step-number">01 / LISTEN</span><h3>충분히 듣고</h3><p>고민과 원하는 방향을 함께 이야기합니다.</p></article>
+          <article><div class="approach-photo image-reveal"><img src="assets/products-botanical-detail.jpg" alt="식물과 조명 앞에 준비된 시머트리스파 제품 트롤리" loading="lazy" width="3072" height="4096"></div><span class="step-number">02 / UNDERSTAND</span><h3>함께 살피고</h3><p>얼굴과 몸의 균형을 함께 고려합니다.</p></article>
+          <article><div class="approach-photo image-reveal"><img src="assets/private-room-window.jpg" alt="자수 베드와 큰 식물이 있는 시머트리스파의 창가 관리실" loading="lazy" width="3072" height="4096"></div><span class="step-number">03 / DESIGN</span><h3>나에게 맞추는 관리</h3><p>개인의 상태에 맞는 관리 방향을 안내합니다.</p></article>
         </div>
       </div>
     </section>
@@ -74,11 +81,10 @@
       <div class="section-label"><span>03</span> SIGNATURE CARE</div>
       <div class="section-heading"><h2 id="care-title" data-split-title>나의 균형을 위한 관리.</h2><p>얼굴과 몸의 상태, 원하는 방향을 함께 살펴<br>나에게 맞는 프로그램을 선택하세요.</p></div>
       <div class="care-experience">
-      <div class="care-visual image-reveal"><img src="assets/brand.jpg" alt="시머트리스파의 공식 흑백 브랜드 이미지" loading="lazy" width="731" height="788"><div class="care-visual-label"><span>SIGNATURE CARE</span><span>THE ART OF BALANCE</span></div></div>
       <div class="care-list">
-        <article class="care-row"><span class="care-number">01</span><div class="care-name"><span>FACIAL BALANCE</span><h3>비대칭 · 윤곽 관리</h3></div><p>얼굴의 균형과 윤곽을 함께 고려하는<br>시머트리의 전문 관리.</p><a class="text-link booking-link" href="https://m.booking.naver.com/booking/13/bizes/1663075/items/7711471?theme=place&amp;service-target=map-pc&amp;lang=ko&amp;area=bmp" target="_blank" rel="noopener" aria-label="비대칭 윤곽 관리 네이버 예약">예약·상담</a></article>
-        <article class="care-row"><span class="care-number">02</span><div class="care-name"><span>SYMMETRY HERITAGE</span><h3>헤리티지 A · B</h3></div><p>나에게 맞는 헤리티지 프로그램을<br>상담을 통해 안내해 드립니다.</p><a class="text-link booking-link" href="https://m.booking.naver.com/booking/13/bizes/1663075/items/7711471?theme=place&amp;service-target=map-pc&amp;lang=ko&amp;area=bmp" target="_blank" rel="noopener" aria-label="헤리티지 A B 네이버 예약">예약·상담</a></article>
-        <article class="care-row"><span class="care-number">03</span><div class="care-name"><span>CUSTOM LIFTING</span><h3>커스텀 리프팅</h3></div><p>헤리티지 B 커스텀 리프팅.<br>개인의 상태에 맞는 관리 방향을 상담하세요.</p><a class="text-link booking-link" href="https://m.booking.naver.com/booking/13/bizes/1663075/items/7711471?theme=place&amp;service-target=map-pc&amp;lang=ko&amp;area=bmp" target="_blank" rel="noopener" aria-label="커스텀 리프팅 네이버 예약">예약·상담</a></article>
+        <article class="care-row"><div class="care-card-photo image-reveal"><img src="assets/brand.jpg" alt="시머트리스파의 공식 흑백 브랜드 이미지" loading="lazy" width="731" height="788"></div><span class="care-number">01</span><div class="care-name"><span>FACIAL BALANCE</span><h3>비대칭 · 윤곽 관리</h3></div><p>얼굴의 균형과 윤곽을 함께 고려하는<br>시머트리의 전문 관리.</p><a class="text-link booking-link" href="https://m.booking.naver.com/booking/13/bizes/1663075/items/7711471?theme=place&amp;service-target=map-pc&amp;lang=ko&amp;area=bmp" target="_blank" rel="noopener" aria-label="비대칭 윤곽 관리 네이버 예약">예약·상담</a></article>
+        <article class="care-row"><div class="care-card-photo image-reveal"><img src="assets/hero.jpg" alt="크림색 베드와 우드 블라인드가 있는 시머트리스파 관리실" loading="lazy" width="1125" height="842"></div><span class="care-number">02</span><div class="care-name"><span>SYMMETRY HERITAGE</span><h3>헤리티지 A · B</h3></div><p>나에게 맞는 헤리티지 프로그램을<br>상담을 통해 안내해 드립니다.</p><a class="text-link booking-link" href="https://m.booking.naver.com/booking/13/bizes/1663075/items/7711471?theme=place&amp;service-target=map-pc&amp;lang=ko&amp;area=bmp" target="_blank" rel="noopener" aria-label="헤리티지 A B 네이버 예약">예약·상담</a></article>
+        <article class="care-row"><div class="care-card-photo image-reveal"><img src="assets/room-alt.jpg" alt="거울과 식물이 있는 시머트리스파의 다른 관리실" loading="lazy" width="1125" height="1122"></div><span class="care-number">03</span><div class="care-name"><span>CUSTOM LIFTING</span><h3>커스텀 리프팅</h3></div><p>헤리티지 B 커스텀 리프팅.<br>개인의 상태에 맞는 관리 방향을 상담하세요.</p><a class="text-link booking-link" href="https://m.booking.naver.com/booking/13/bizes/1663075/items/7711471?theme=place&amp;service-target=map-pc&amp;lang=ko&amp;area=bmp" target="_blank" rel="noopener" aria-label="커스텀 리프팅 네이버 예약">예약·상담</a></article>
       </div>
       </div>
       <p class="care-note">프로그램별 구성, 소요 시간과 이용 금액은 네이버 예약 및 상담을 통해 확인하실 수 있습니다.</p>
@@ -86,8 +92,12 @@
     <section class="space-section" id="space" aria-labelledby="space-title">
       <div class="space-heading"><div class="section-label"><span>04</span> THE SPACE</div><h2 id="space-title" data-split-title>머무는 순간부터,<br>편안하게.</h2><p>은은한 빛과 따뜻한 우드,<br>조용히 나를 돌보는 시간.</p></div>
       <div class="space-gallery">
-        <button class="gallery-photo gallery-main" data-src="assets/space-1.jpg" data-caption="시머트리스파 강남본점의 공간" aria-label="매장 공간 사진 크게 보기"><img src="assets/space-1.jpg" alt="시머트리스파 강남본점 매장 공간" loading="lazy" width="1000" height="1200"><span>THE SPACE <small>사진 크게 보기</small></span></button>
-        <button class="gallery-photo" data-src="assets/space-2.jpg" data-caption="시머트리스파 강남본점의 내부 공간" aria-label="내부 공간 사진 크게 보기"><img src="assets/space-2.jpg" alt="시머트리스파 강남본점 내부 공간" loading="lazy" width="1000" height="1200"><span>QUIET MOMENTS <small>사진 크게 보기</small></span></button>
+        <button class="gallery-photo gallery-main" data-src="assets/space-1.jpg" data-caption="우드 도어와 조명이 어우러진 시머트리스파 복도" aria-label="매장 공간 사진 크게 보기"><img src="assets/space-1.jpg" alt="시머트리스파의 우드 도어와 은은한 복도 조명" loading="lazy" width="3072" height="4096"><span>THE CORRIDOR <small>사진 크게 보기</small></span></button>
+        <button class="gallery-photo" data-src="assets/space-2.jpg" data-caption="시머트리스파의 곡면 벽과 실내 나무" aria-label="내부 공간 사진 크게 보기"><img src="assets/space-2.jpg" alt="곡면 벽과 실내 나무가 있는 시머트리스파 입구 공간" loading="lazy" width="538" height="698"><span>SOFT LIGHT <small>사진 크게 보기</small></span></button>
+        <button class="gallery-photo" data-src="assets/wood-lounge-corridor.jpg" data-caption="시머트리스파의 라운지로 이어지는 공간" aria-label="라운지 복도 사진 크게 보기"><img src="assets/wood-lounge-corridor.jpg" alt="우드 벽과 곡면 벽 사이로 보이는 시머트리스파 라운지" loading="lazy" width="3072" height="4096"><span>THE LOUNGE <small>사진 크게 보기</small></span></button>
+        <button class="gallery-photo" data-src="assets/diffuser-product-detail.jpg" data-caption="시머트리스파의 디퓨저와 핸드 제품" aria-label="디퓨저와 제품 사진 크게 보기"><img src="assets/diffuser-product-detail.jpg" alt="우드 벽 앞의 유리 디퓨저와 핸드 제품" loading="lazy" width="3072" height="4096"><span>SMALL DETAILS <small>사진 크게 보기</small></span></button>
+        <button class="gallery-photo" data-src="assets/private-room-window.jpg" data-caption="시머트리스파의 창가 관리실" aria-label="창가 관리실 사진 크게 보기"><img src="assets/private-room-window.jpg" alt="시머트리스파 자수 베드, 우드 블라인드와 식물이 있는 관리실" loading="lazy" width="3072" height="4096"><span>PRIVATE CARE <small>사진 크게 보기</small></span></button>
+        <button class="gallery-photo" data-src="assets/quiet-lounge.jpg" data-caption="시머트리스파의 조용한 대기공간" aria-label="대기공간 사진 크게 보기"><img src="assets/quiet-lounge.jpg" alt="화이트 쿠션 의자 두 개와 은은한 조명이 있는 대기공간" loading="lazy" width="3072" height="4096"><span>QUIET MOMENTS <small>사진 크게 보기</small></span></button>
       </div>
     </section>
     <section class="section visit" id="visit" aria-labelledby="visit-title">

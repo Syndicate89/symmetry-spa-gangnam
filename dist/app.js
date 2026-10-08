@@ -187,13 +187,6 @@ runSlideshow();
 queueScrollScene();
 window.requestAnimationFrame(() => hero.classList.add('is-ready'));
 if (document.fonts) document.fonts.ready.then(queueScrollScene);
-const careVisual = document.querySelector('.care-visual');
-document.querySelectorAll('.care-row').forEach(row => {
-  row.addEventListener('mouseenter', () => careVisual.classList.add('is-engaged'));
-  row.addEventListener('mouseleave', () => careVisual.classList.remove('is-engaged'));
-  row.addEventListener('focusin', () => careVisual.classList.add('is-engaged'));
-  row.addEventListener('focusout', event => { if (!row.contains(event.relatedTarget)) careVisual.classList.remove('is-engaged'); });
-});
 const photoDialog = document.querySelector('.photo-dialog');
 galleryPhotos.forEach(button => button.addEventListener('click', () => {
   const image = photoDialog.querySelector('img');
